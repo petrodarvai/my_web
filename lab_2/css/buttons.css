@@ -1,0 +1,40 @@
+.buttons a, .reg_exp {
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+    display: inline-flex;
+    width: 132px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 1px solid #FB8F1D;
+}
+
+.reg_exp, .buttons a.log:hover {
+    background-color: #FB8F1D;
+    color: #ffffff;
+}
+
+.buttons a.log, .reg_exp:hover {
+    background-color: #ffffff;
+    color: #FB8F1D;
+}
+
+.sect_3_but, .sect_3_but:active, .sect_3_but:visited {
+    font-size: 17px;
+    color: #FB8F1D;
+    text-decoration: none;
+    transition: all 0.2s ease-out; 
+    display: inline-block;
+}
+
+.sect_3_but:hover {
+    color: #FFB77D;
+    text-decoration: underline;
+    transform: translateX(3px); 
+    opacity: 0.9;
+}

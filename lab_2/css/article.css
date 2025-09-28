@@ -1,0 +1,259 @@
+article {
+    margin: 0px 100px;
+}
+
+.section_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+h1 {
+    width: 356px;
+    font-size: 64px;
+    color: #202336;
+}
+
+.section_1 p {
+    width: 149px;
+    height: 27px;
+    color: #202336;
+    font-size: 22px;
+}
+
+.line {
+    border-top: 2px solid #202336;
+    width: 32px;
+    margin: 10px 0px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.row {
+    display: flex;
+    gap: 40px;
+    margin: 50px 0px;
+}
+
+select {
+    width: 220px;
+    height: 52px;
+    box-sizing: border-box;
+    color: #AFB0B9;
+    border-color: #AFB0B9;
+    border-radius: 5px;
+}
+
+.img_sel_1 {
+    margin-top: 20px;
+}
+
+.section_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 50px 20px;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right h2 {
+    font-size: 36px;
+    color: #000000;
+}
+
+.right p {
+    font-size: 17px;
+    color: #7D7987;
+}
+
+.sel_3_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sel_3_head h2 {
+    font-size: 56px;
+}
+
+.sel_3_body {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.section_3 img {
+    width: 261px;
+    height: 337px;
+    border-radius: 5px;
+}
+
+.sel_3_imadge {
+    position: relative;
+}
+
+.sel_3_text {
+    position: absolute;
+    border-radius: 5px;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    width: 50%;
+    height: 56px;
+    justify-content: start;
+    flex-direction: column;
+    background: #ffffff;
+    box-sizing: border-box;
+    padding: 5px 10px;
+}
+
+.sel_3_text h3 {
+    font-size: 17px;
+    line-height: 28px;
+    margin: 0px;
+}
+
+.sel_3_text p {
+    font-size: 12px;
+    line-height: 28px;
+    margin: 0px;
+}
+
+@media (min-width: 1440px) {
+    article {
+        max-width: 1200px;
+        margin: 0 auto; 
+    }
+}
+
+@media (max-width: 1000px) {
+    article {
+        margin: 0 5%; 
+    }
+    
+    .section_1 {
+        flex-direction: column; 
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    
+    .section_1 > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        width: auto; 
+        font-size: 48px;
+    }
+    .line {
+        margin: 10px auto; 
+    }
+
+    .img_sel_1 {
+        max-width: 100%; 
+        height: auto;
+        margin-top: 0;
+    }
+
+    .row {
+        flex-direction: column; 
+        gap: 15px;
+        margin: 8px 0;
+        align-items: center;
+    }
+    select {
+        width: 100%; 
+        max-width: 350px; 
+    }
+    .section_1 form {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .section_2 {
+        flex-direction: column; 
+        padding: 30px 0;
+        text-align: center;
+    }
+    .section_2 img {
+        max-width: 100%;
+        height: auto;
+    }
+    .right {
+        align-items: center; 
+        padding: 0 10px;
+    }
+    .right p {
+        text-align: justify;
+        text-align-last: center;
+    }
+
+    .sel_3_head {
+        flex-direction: column; 
+        gap: 15px;
+        text-align: center;
+        align-items: center;
+    }
+    .sel_3_head h2 {
+        font-size: 40px;
+    }
+
+    .sel_3_body {
+        flex-wrap: wrap; 
+        justify-content: center; 
+        gap: 20px; 
+        padding-top: 20px;
+    }
+
+    .sel_3_imadge {
+        width: calc(50% - 10px);
+        max-width: 350px;
+    }
+    .section_3 img {
+        width: 100%; 
+        height: auto;
+    }
+
+    .sel_3_text {
+        width: 60%; 
+    }
+}
+
+@media (max-width: 480px) {
+    article {
+        margin: 0 3%;
+    }
+    
+    h1 {
+        font-size: 36px;
+    }
+
+    .sel_3_head h2 {
+        font-size: 30px;
+    }
+    
+    .sel_3_imadge {
+        width: 100%; 
+        max-width: 90vw; 
+    }
+
+    .sel_3_text {
+        width: 70%; 
+    }
+}
