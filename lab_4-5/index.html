@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Movies</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-left">
+      <h1>My Movies</h1>
+      <nav class="tabs">
+        <div class="tab active">All Movies</div>
+        <div class="tab">Add Movie</div>
+      </nav>
+    </div>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search by title..." />
+      <button class="search" id="searchBtn">Search</button>
+      <button class="clear" id="clearBtn">Clear</button>
+    </div>
+  </header>
+
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Manage movies</h2>
+
+      <div class="toggle">
+        <label>Sort by highest rating</label>
+        <input type="checkbox" id="sortToggle">
+      </div>
+
+      <div class="count-box">
+        <p>Count total duration (min):</p>
+        <button id="countBtn">Count</button>
+      </div>
+
+      <div class="total">
+        Total duration: <span id="totalValue">0 min</span>
+      </div>
+    </aside>
+
+    <main class="content" id="movieContainer">
+ 
+    </main>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
