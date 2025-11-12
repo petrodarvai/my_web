@@ -1,0 +1,133 @@
+<!doctype HTML>
+<html>
+    <head> 
+        <meta charset="utf_8" lang="en">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css">
+        <title>Lab_2_V2</title>
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.png" alt="logo">
+            <nav>
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-label">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <ul class="nav-list">
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="buttons">
+                <a class="log" href="#login">Login</a>
+                <a class="reg_exp" href="#register">Register</a>
+            </div>
+        </header>
+        <article>
+            <section class = "section_1">
+                <div>
+                    <h1> Explore and Travel</h1>
+                    <p>holiday finder</p>
+                    <div class = "line"> </div>
+                    <form action="/submit" method="get" class="">
+                        <div class="row">
+                            <select name="location" id="location" required>
+                            <option value="" disabled selected>Location</option>
+                            <option value="Rome">Rome</option>
+                            <option value="Milan">Milan</option>
+                            </select>
+                            <select name="grade" id="grade" required>
+                            <option value="" disabled selected>Grade</option>
+                            <option value="3 stars">3 stars</option>
+                            <option value="4 stars">4 stars</option>
+                            </select>
+                        </div>
+
+                        <div class="row">
+                            <select name="activity" id="activity" required>
+                            <option value="" disabled selected>Activity</option>
+                            <option value="Tourism">Tourism</option>
+                            <option value="Food">Food</option>
+                            </select>
+                            <select name="date" id="date" required>
+                            <option value="" disabled selected>Date</option>
+                            <option value="01.10">01.10</option>
+                            <option value="10.10">10.10</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="reg_exp">Explore</button>
+                    </form>
+                </div>
+                <img class = "img_sel_1" src="images/article_1.png" alt="">
+            </section>
+            <section class = "section_2">
+                <img src="images/article_2.png" alt="">
+                <div class = "right">
+                    <h2>A new wey to explore the world</h2>
+                    <p>
+                        For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect 
+                        trip, but now, they can also let Lonely Planet Experiences lead the way
+                    </p>
+                    <a href="#learn_more" class = "reg_exp">Learn more</a>
+                </div>
+            </section>
+
+            <section class = "section_3">
+                <div class="sel_3_head">
+                    <h2>Featured destinations</h2>
+                    <a href="#viev_all" class = "sect_3_but">Viev all ></a>
+                </div>
+                <div class="sel_3_body">
+                    <div class = sel_3_imadge>
+                        <img src="images/article_3_1.png" alt="Raja Ampat" class = "png_sel_3">
+                        <div class = "sel_3_text">
+                            <h3>Raja Ampat</h3>
+                            <p>Indonesia</p>
+                        </div>
+                    </div>
+                    <div class = sel_3_imadge>
+                        <img src="images/article_3_2.png" alt="Fanjingshan" class = "png_sel_3">
+                        <div class = "sel_3_text">
+                            <h3>Fanjingshan</h3>
+                            <p>China</p>
+                        </div>
+                    </div>
+                    <div class = sel_3_imadge>
+                        <img src="images/article_3_3.png" alt="Vevey" class = "png_sel_3">
+                        <div class = "sel_3_text">
+                            <h3>Vevey</h3>
+                            <p>Switzerland</p>
+                        </div>
+                    </div>
+                    <div class = sel_3_imadge>
+                        <img src="images/article_3_4.png" alt="Skadar" class = "png_sel_3">
+                        <div class = "sel_3_text">
+                            <h3>Skadar</h3>
+                            <p>Montenegro</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+       </article>
+       <footer>
+            <div class = "div_1_footer">
+                <img src="images/logo.png" alt="">
+                <p>©2020 Thousand Sunny. All rights reserved</p>
+            </div>
+            <div class="line"> </div>
+            <div class = "div_2_footer">
+                <a href="https://x.com/?" target="_blank"> <img src="images/twitter.png" alt="twitter"> </a>
+                <a href="https://www.facebook.com/" target="_blank"> <img src="images/facebook.png" alt="facebook"> </a>
+                <a href="https://www.instagram.com/" target="_blank"> <img src="images/insta.png" alt="instagram"> </a>
+                <a href="https://ua.linkedin.com/" target="_blank"> <img src="images/linked_in.png" alt="linked in"> </a>
+                <a href="https://www.youtube.com/?app=desktop&hl=ru" target="_blank"> <img src="images/youtube.png" alt="youtube"> </a> 
+            </div>
+       </footer> 
+    </body>
+</html>

@@ -1,0 +1,29 @@
+footer{
+    margin-top:20px;
+    background-color: #F8F8F8;
+}
+.div_1_footer img{
+    padding-left:100px ;
+}
+.div_1_footer p{
+    color: #C4C4C4;
+}
+.div_1_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div_2_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div_2_footer img{
+    margin:10px;
+}
+footer .line{
+    border-top: 0.6px solid #C4C4C4;
+    width: 1219px;
+    margin: 10px 0px;
+    margin: 20px auto;
+}

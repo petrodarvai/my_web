@@ -1,0 +1,41 @@
+a.log, .reg_exp:hover{
+    display: inline-flex;
+    width: 132px;               
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #FB8F1D;
+    size: 15px;
+    text-decoration: none;
+    border: 1px solid #FB8F1D;
+    border-radius: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.reg_exp, a.log:hover {
+    display: inline-flex;
+    width: 132px;              
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    size: 15px;
+    background-color: #FB8F1D;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #FB8F1D;
+    border-radius: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.sect_3_but, .sect_3_but:active, .sect_3_but:visited{
+    font-size: 17px;
+    color: #FB8F1D;
+    text-decoration: none;
+}
+.sect_3_but:hover{
+    font-size: 17px;
+    color: #FB8F1D;
+    text-decoration: underline;
+}
