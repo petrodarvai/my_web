@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     return;
   }
 
-  // Завантажуємо дані фільму
   try {
     const res = await fetch(`${API_URL}/${id}`);
     if (!res.ok) throw new Error('Movie not found');
@@ -30,7 +29,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     return;
   }
 
-  // Обробка submit форми
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
 
