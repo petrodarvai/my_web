@@ -1,0 +1,64 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Inception",
+      "description": "A thief who steals corporate secrets...",
+      "year": 2010,
+      "rating": 8.8,
+      "genre": "Sci-Fi",
+      "duration": 148,
+      "director": "Christopher Nolan"
+    },
+    {
+      "id": 2,
+      "title": "The Dark Knight",
+      "description": "Batman faces the Joker...",
+      "year": 2008,
+      "rating": 9.0,
+      "genre": "Action",
+      "duration": 152,
+      "director": "Christopher Nolan"
+    },
+    {
+      "id": 3,
+      "title": "The Martian",
+      "description": "Astronaut Mark Watney is presumed dead...",
+      "year": 2015,
+      "rating": 8.0,
+      "genre": "Sci-Fi",
+      "duration": 144,
+      "director": "Ridley Scott"
+    },
+    {
+      "id": 4,
+      "title": "Pulp Fiction",
+      "description": "The lives of two mob hitmen...",
+      "year": 1994,
+      "rating": 8.9,
+      "genre": "Crime",
+      "duration": 154,
+      "director": "Quentin Tarantino"
+    },
+    {
+      "id": 5,
+      "title": "Interstellar",
+      "description": "A team of explorers travel through a wormhole...",
+      "year": 2014,
+      "rating": 8.6,
+      "genre": "Sci-Fi",
+      "duration": 169,
+      "director": "Christopher Nolan"
+    },
+    {
+      "id": 6,
+      "title": "The Green Mile",
+      "description": "The life of a death row prison guard...",
+      "year": 1999,
+      "rating": 8.6,
+      "genre": "Drama",
+      "duration": 189,
+      "director": "Frank Darabont"
+    }
+  ]
+}
